@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body class="login-body">
+    <div class="login-container">
+      <div class="login-box">
+        <div class="logo">
+          <div class="logo-icon">
+            <a
+              href="/"
+              style="
+                text-decoration: none;
+                font-family: Poppins, sans-serif;
+                font-weight: 700;
+                font-size: 24px;
+                color: #1e40af;
+              "
+            >
+              Duropay<span style="color: #059669">Pay</span>
+            </a>
+        </div>
+          <p>Admin Dashboard</p>
+        </div>
+
+        <form id="loginForm" class="login-form">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+
+          <button type="submit" class="btn-primary">Login</button>
+
+          <div class="form-footer">
+            <a href="/pages/forget-password.html">Forgot Password?</a>
+            <a href="/pages/create-user.html">Create Account</a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
